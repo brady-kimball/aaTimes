@@ -21,6 +21,7 @@
   font-weight: bold;
   padding: 7px 9px;
   transition: background-color .3s;
+  border-radius: 3px;
 }
 
 .right-nav > ul > li {
@@ -29,8 +30,9 @@
 }
 
 .right-nav > ul > li:last-of-type {
-  padding: 7px 9px;
+  padding: 5px 9px;
   transition: background-color .3s;
+  border-radius: 3px;
 }
 
 .left-nav > ul > li:hover,

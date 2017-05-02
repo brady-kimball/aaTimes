@@ -60,7 +60,7 @@
 }
 
 .masthead-links a,
-.masthead-links button, 
+.masthead-links button,
 .masthead-links time {
 	margin-right: 10px;
 }
@@ -71,4 +71,16 @@
 
 .masthead-links strong {
 	color: green;
+}
+
+.masthead-links li:last-child {
+	border-right: none;
+}
+
+.language-nav li:first-child a {
+	font-weight: bold;
+}
+
+.masthead a:hover{
+	text-decoration: underline;
 }
