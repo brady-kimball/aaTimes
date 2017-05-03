@@ -1,0 +1,71 @@
+.main-content {
+  margin-top: 20px;
+}
+
+.main-content header {
+  font-weight: bold;
+}
+
+.main-content .author {
+  margin: 4px 0;
+  color: $gray;
+  font-size: 10px;
+}
+
+
+
+.main-content header:hover {
+  text-decoration: underline;
+}
+
+.subtitle {
+  text-transform: uppercase;
+  font-size: 10px;
+  margin: 1px 0;
+}
+
+.main-story ul {
+  margin: 5px 0;
+  list-style: initial;
+  padding-left: 13px;
+}
+
+.main-story ul li {
+  padding-left: 0;
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+.main-story .comment {
+  font-family: $sans-serif;
+  font-size: 10px;
+}
+
+.main-story .comment:hover {
+  color: $blue;
+  text-decoration: underline;
+}
+
+.opinion-links {
+  list-style: initial;
+  padding-left: 10px;
+  font-weight: bold;
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+
+.opinion-links li {
+  margin-top: 5px;
+}
+
+.op-sign-up {
+  margin-top: 10px;
+}
+
+.fineprint {
+  color: $gray;
+  font-size: 10px;
+  text-align: center;
+  line-height: 1;
+  padding: 5px 0;
+}
